@@ -1,0 +1,58 @@
+namespace a111{
+	
+    public interface infs
+    {
+
+
+    }
+       public class cvm{
+		
+		public static void Start()
+		{
+			(int a,int b)=(1,2);
+			UnityEngine.Debug.Log(b+"jiushenwudu"+a);
+		}
+		
+		
+	}
+public class fyindex<T>  where T : struct,infs
+    {
+        public int fyl = 2017;
+    //    public const int fyl2 = 2019;
+
+
+
+        public T SQ()
+        {
+          (int a,int b)=(1,2);
+            return default(T);
+        }
+
+        public string Abv(int i)
+	{
+
+     
+		var c="fyindex"+i;
+		var ge=new int[1,1];
+		var d=c[1];
+		switch(i)
+		{
+			case 2:
+			
+			break;
+		default :
+		   c="longshenwudu";
+		break;
+		}
+	return c;
+	}
+        public class NestStack
+        {
+
+        }
+        public class NestStack2: NestStack
+        {
+
+        }
+    }
+}
